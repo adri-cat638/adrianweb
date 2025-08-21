@@ -1,0 +1,34 @@
+  body {
+      background-color: #1e1e1e;
+      color: #d4d4d4;
+      font-family: 'Courier New', Courier, monospace;
+      padding: 40px;
+    }
+    .comment { color: #6a9955; }
+    .keyword { color: #569cd6; }
+    .string { color: #d69d85; }
+    .type { color: #4ec9b0; }
+    .number { color: #b5cea8; }
+    .highlight { color: #9cdcfe; }
+     .img {
+      width: 200px;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     
+    }
+    .img-placeholder {
+      border: 2px dashed #555;
+      width: 205px;
+      height: 205px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #777;
+    }
+    pre {
+      white-space: pre-wrap;
+    }
+  
